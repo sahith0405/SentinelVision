@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+
+# MVTec AD dataset
+data/mvtec/
+
+# Model weights
+models/*.pt
+models/*.pth
+models/*.ckpt
+
+# Generated FAISS indexes
+models/*.faiss
+
+# Generated results
+results/heatmaps/*
+results/metrics/*
+results/plots/*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
