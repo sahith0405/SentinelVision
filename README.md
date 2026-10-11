@@ -40,7 +40,7 @@ SentinelVision is designed for visual quality inspection in manufacturing enviro
 ### Evaluation Plot
 
 <p align="center">
-  <img src="results/plots/04_localization.png" alt="Defect localization plot" width="900" />
+  <img src="docs/assets/localization-results.png" alt="Defect localization plot" width="900" />
 </p>
 
 ## Supported Categories
@@ -142,7 +142,7 @@ The app was validated locally with:
 The evaluation pipeline includes image-level and pixel-level metrics for each supported category, with threshold-based detection logic and defect localization overlays.
 
 <p align="center">
-  <img src="results/plots/SentinelVision_results_dashboard.png" alt="SentinelVision results dashboard" width="900" />
+  <img src="docs/assets/evaluation-results.png" alt="SentinelVision results dashboard" width="900" />
 </p>
 
 ## Troubleshooting
@@ -155,4 +155,3 @@ The evaluation pipeline includes image-level and pixel-level metrics for each su
 ## License and Usage
 
 This project is intended for industrial visual inspection research, prototyping, and local experimentation. It is designed to run on a local machine and evaluate anomaly detection workflows using the MVTec AD dataset and PatchCore-style inference.
-
