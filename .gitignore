@@ -19,8 +19,11 @@ env/
 .env
 .env.*
 
-# MVTec AD dataset
-data/mvtec/
+# Full local datasets
+data/
+
+# Local model artifacts
+models/
 
 # Model weights
 models/*.pt
@@ -37,6 +40,15 @@ results/plots/*
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Local backup files
+*.backup
+*.bak
+*.before_*
 
 # Logs
 *.log
